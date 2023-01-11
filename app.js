@@ -106,7 +106,7 @@ app.get(
       const completedItems = await Todo.completedItems(loggedIn);
       if (request.accepts("html")) {
         response.render("todos", {
-          title: "Shankar Todo Manager",
+          title: "Sai Kumar Todo Manager",
           overDue,
           dueToday,
           dueLater,
